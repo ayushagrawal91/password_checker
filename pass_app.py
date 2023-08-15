@@ -11,5 +11,5 @@ if len(password) != 0:
 			return "moderate password"
 		else:
 			return "strong password"
-	class_ = "strength: " + results(prediction)
-    	st.success(class_)
+class_ = "strength: " + results(prediction)
+st.success(class_)
